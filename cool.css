@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+#infoBar{
+    display: flex;
+    justify-content: center;
+    height: 24pt;
+    background-color: darkmagenta;
+}
+
+#answerContainer{
+    height: 36pt;
+    width: 50vw;
+    padding: 12pt 0;
+    display: flex;
+    background-color: blueviolet;
+}
+
+#keypadContainer{
+    width: 75vw;
+    aspect-ratio: 3/5;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.keypadButton{
+    flex-basis: 20vw;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: darkorchid;
+    border-radius: 2vw;
+}
