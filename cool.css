@@ -12,27 +12,30 @@ h1{
 }
 
 #infoBar{
-    height: 5vh;
+    height: 8vh;
     width: 65vw;
     border-radius: 6pt;
     background-color: darkmagenta;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #answerContainer{
-    height: 36pt;
+    height: 5vh;
     width: 50vw;
     border-radius: 3pt;
-    padding: 12pt 0;
+    padding: 1pt 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blueviolet;
 }
 
 #keypadContainer{
     width: 60vw;
-    height: 100vw;
+    /*height: 60vh;*/
+    padding: 0 2vw;
     border-radius: 2vw;
     background-color: rebeccapurple;
     display: flex;
@@ -44,14 +47,14 @@ h1{
 .keypadButton{
     margin: 2vw;
     flex-basis: 16vw;
-    aspect-ratio: 5/6;
+    aspect-ratio: 5/5;
     flex-grow: 0;
     flex-shrink: 1;
     background-color: darkorchid;
     border-radius: 2vw;
 
     font-family: Helvetica;
-    font-size: 12vw;
+    font-size: 8vw;
     font-weight: bold;
     text-align: center;
 
