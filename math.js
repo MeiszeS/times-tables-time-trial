@@ -13,7 +13,7 @@ var incorrect = 0;
 
 question.textContent = num1+"x"+num2+" = ?";
 
-alert(window.innerWidth+", "+window.innerHeight);
+//alert(window.innerWidth+", "+window.innerHeight);
 
 
 function keypadPress(event){

@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1vw;
+    gap: 1vh;
     align-items: center;
 }
 
@@ -14,8 +14,8 @@ body{
 
 #infoBar{
     height: 8vh;
-    width: 65vw;
-    border-radius: 2vw;
+    width: 39vh;
+    border-radius: 1vh;
     background-color: darkmagenta;
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +32,7 @@ body{
 
 #answerContainer{
     height: 5vh;
-    width: 50vw;
+    width: 30vh;
     border-radius: 3pt;
     padding: 1pt 0;
     display: flex;
@@ -42,10 +42,10 @@ body{
 }
 
 #keypadContainer{
-    width: 50vw;
-    height: 50vh;
-    padding: 0 2vw;
-    border-radius: 2vw;
+    width: 40vh;
+    height: 55vh;
+    padding: 0 2vh;
+    border-radius: 1vh;
     background-color: rebeccapurple;
     display: flex;
     flex-wrap: wrap;
@@ -54,16 +54,16 @@ body{
 }
 
 .keypadButton{
-    margin: 1vw;
-    flex-basis: 14vw;
+    margin: 1vh;
+    flex-basis: 10vh;
     aspect-ratio: 5/5;
     flex-grow: 0;
     flex-shrink: 1;
     background-color: darkorchid;
-    border-radius: 2vw;
+    border-radius: 1vh;
 
     font-family: Helvetica;
-    font-size: 8vw;
+    font-size: 5vh;
     font-weight: bold;
     text-align: center;
 
