@@ -43,8 +43,8 @@ body{
 
 #keypadContainer{
     width: 50vh;
-    height: 55vh;
-    padding: 0 2vh;
+    height: 65vh;
+    padding: 0;
     border-radius: 1vh;
     background-color: rebeccapurple;
     display: flex;
@@ -55,7 +55,7 @@ body{
 
 .keypadButton{
     margin: 1vh;
-    flex-basis: 11vh;
+    flex-basis: 10vh;
     aspect-ratio: 5/5;
     flex-grow: 0;
     flex-shrink: 1;
