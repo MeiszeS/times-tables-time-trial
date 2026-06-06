@@ -4,8 +4,8 @@ const question = document.getElementById("question");
 const correctText = document.getElementById("correct");
 const incorrectText = document.getElementById("incorrect");
 
-var num1 = 1 + Math.ceil(Math.sqrt(Math.random()*100));
-var num2 = 1 + Math.ceil(Math.sqrt(Math.random()*400));
+var num1 = 1 + Math.ceil(Math.pow(Math.random(), 0.5)*20);
+var num2 = 1 + Math.ceil(Math.pow(Math.random(), 0.5)*100);
 var answer = num1 * num2;
 
 var correct = 0;
