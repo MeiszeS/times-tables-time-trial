@@ -32,7 +32,7 @@ body{
 
 #answerContainer{
     height: 5vh;
-    width: 30vh;
+    width: 40vh;
     border-radius: 1vh;
     padding: 1pt 0;
     display: flex;
@@ -42,7 +42,7 @@ body{
 }
 
 #keypadContainer{
-    width: 40vh;
+    width: 50vh;
     height: 55vh;
     padding: 0 2vh;
     border-radius: 1vh;
