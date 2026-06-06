@@ -13,8 +13,10 @@ var incorrect = 0;
 
 question.textContent = num1+"x"+num2+" = ?";
 
+alert(window.innerWidth+", "+window.innerHeight);
+
+
 function keypadPress(event){
-    console.log(event.target.textContent);
     answerText.textContent += event.target.textContent;
     answerCheck();
 }
@@ -36,6 +38,5 @@ function answerCheck(){
 }
 
 for(let i = 0; i < keypadButtons.length; i++){
-    console.log(keypadButtons[i]);
     keypadButtons[i].addEventListener("click", keypadPress);
 }
