@@ -55,7 +55,7 @@ body{
 
 .keypadButton{
     margin: 1vh;
-    flex-basis: 8vh;
+    flex-basis: 9vh;
     aspect-ratio: 5/5;
     flex-grow: 0;
     flex-shrink: 1;
