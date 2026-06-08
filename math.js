@@ -4,8 +4,16 @@ const question = document.getElementById("question");
 const correctText = document.getElementById("correct");
 const incorrectText = document.getElementById("incorrect");
 
-var num1 = 1 + Math.ceil(Math.pow(Math.random(), 0.5)*20);
-var num2 = 1 + Math.ceil(Math.pow(Math.random(), 0.5)*100);
+function num1gen(){
+    return 1 + Math.ceil(Math.pow(Math.random(), 1)*20);
+}
+
+function num2gen(){
+    return 1 + Math.ceil(Math.pow(Math.random(), 2)*100);
+}
+
+var num1 = num1gen();
+var num2 = num2gen();
 var answer = num1 * num2;
 
 var correct = 0;
@@ -26,8 +34,8 @@ function answerCheck(){
     if(answerText.textContent.toString().length == answer.toString().length){
         if(answerText.textContent == answer){correct++;}else{incorrect++;}
 
-        num1 = 1 + Math.ceil(Math.sqrt(Math.random()*100));
-        num2 = 1 + Math.ceil(Math.sqrt(Math.random()*400));
+        num1 = num1gen();
+        num2 = num2gen();
         answer = num1 * num2;
         question.textContent = num1+"x"+num2+" = ?";
         answerText.textContent = "";
